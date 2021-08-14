@@ -22,9 +22,8 @@ const cargarJson = () => {
     .catch(error    =>  console.log(error));
 
     contenido = document.getElementById("contenido");
-    //moverFondo();
 
-    jumbo = document.getElementById("principal");
+    jumbo = document.getElementById("Principal");
     jumbo.style.position = "relative";
     jumbo.style.zIndex = -1;
     jumbo.style.opacity = 0;

@@ -2,6 +2,10 @@
 <html>
 
 <head>
+    <link rel="shortcut icon" type="image/x-icon" href="/ico.ico">
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
@@ -16,7 +20,10 @@
 
     <link rel="stylesheet" type="text/css" href="/style.css" />
     <script type="text/javascript" src="loadjson.js"></script>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <!--
     <link rel="stylesheet" type="text/css" href="/paginaACT/style.css">
+-->
 
 </head>
 
@@ -29,6 +36,9 @@
             <div class=" navbar-expand " id="navbarText">
 
                 <ul class="navbar-nav mr-auto">
+                    <li>
+                       <img src="ico.png" class = "minilogo"></img> 
+                    </li>
                     <li class="nav-item" >
                         <a class="btn-link botonHeader" href="index.html#Principal">Inicio</a>
                     </li>
@@ -44,9 +54,6 @@
                     <li class="nav-item" >
                         <a class="btn-link botonHeader" href="index.html#Testimonios">Testimonios</a>
                     </li>
-                    <li class="nav-item" >
-                        <a class="btn-link botonHeader" href="index.html#Contacto">Contacto</a>
-                    </li>
                 </ul>
 
             </div>
@@ -59,9 +66,10 @@
         <div class="container">
 
             <div class="row">
-                <div class="col-12">
-                    <h1 class="display-4 parrafo">Amor Consciencia Terapias</h1>
-                </div>
+                <img src="logo.png" id="logo"></img>
+            </div>
+            <div class="row">
+                  <h1 class="display-4 parrafo tituloPrincipal">Amor Consciencia Terapias</h1>
             </div>
 
             <div class ="col-12">
@@ -79,7 +87,42 @@
         </div>
 
     </div>
-      
+       <!-- CONTACTO - - - - - - - - - - - - - - - - - - - - - - - -->
+       <div class="jumbotron jumbotron-fluid jumbos" id="presentacion">
+        <h1 class="display-4 parrafo">¿Quién soy?</h1>
+        <hr class="my-1">
+
+    </div>
+    <div class="seccion" id="seccionPresentacion">
+
+        <img src="fotoNicole.jpeg" id="fotoNicole" class="img-fluid imagenes" alt="Responsive image">
+
+        <p class="parrafo">
+            <br>
+            <strong>¿Quién soy?</strong>
+            <br><br>
+        <strong>Nicole Tapia </strong> <br><br>
+        Licenciada en Lengua y Literatura Hispánica. Terapeuta Integral en Psicología Transpersonal. Terapeuta Floral. Reiki Máster. Tarotista. Facilitadora de Escritura Terapéutica.
+        <br>
+        Soy una mujer, madre, artista, creadora de 31 años que durante mucho tiempo viví inconsciente de mi poder interior. A los 22 años una depresión de años llegó a su culminación y terminé medicada sin comprender bien qué me pasaba.
+        <br>
+        Una fuerza interior siempre me llevó a buscar mi bienestar. Es así como probé distintas terapias complementarias hasta que el año 2013 me inicié en Reiki Usui marcando un antes y un después en mi vida.
+        <br>
+        Despertó en mí la consciencia espiritual y de todos los poderes mágicos que me abundan. Y desde ese día no he parado en este hermoso camino de auto conocimiento y sanación. 
+        <br>
+        Como ves han sido años de aprendizaje. Sanar no es un mero trámite, es el sendero de la vida misma que se recorre y se construye a pulso con amor y mucha paciencia. 
+        <br>
+        Esta experiencia es lo que me interesa transmitir en mis talleres y terapias. No quiero decirte cómo vivir tu vida, quiero ayudarte a que te empoderes y regreses a tu centro para que aprendas a escucharte y conectarte con tu Ser esencial.
+        <br>
+        Me hace muy feliz poder acompañarte en tus procesos de crecimiento y sanación. Porque lo viví, porque también fui asistida en esos momentos difíciles y porque sé que el amor y la consciencia sanan.
+        <br>
+        Muchas gracias por visitar mi página y confiar en mi trabajo.
+        
+        <br><br>
+        Bendiciones
+        </p>
+    </div>
+
     <!-- CONTENIDO DINÁMICO  - - - - - - - - - - - - - - - - - - - - - - - -->
     <div id="contenido" class="container-fluid">
 
@@ -234,48 +277,18 @@
  
                 <br><br><br>
             </div>
-
-            <!-- CONTACTO - - - - - - - - - - - - - - - - - - - - - - - -->
-            <div class="jumbotron jumbotron-fluid jumbos" id="Contacto">
-                <h1 class="display-4 parrafo">Contacto</h1>
-                <hr class="my-1">
-            </div>
-            <div class="seccion" id="seccionContacto">
-
-                <img src="fotoNicole.jpeg" id="fotoNicole" class="img-fluid imagenes" alt="Responsive image">
-
-                
-
-                <p class="parrafo">
-                    <br>
-                    <strong>¿Quién soy?</strong>
-                    <br><br>
-                <strong>Nicole Tapia </strong> <br><br>
-                Licenciada en Lengua y Literatura Hispánica. Terapeuta Integral en Psicología Transpersonal. Terapeuta Floral. Reiki Máster. Tarotista. Facilitadora de Escritura Terapéutica.
-                <br><br>
-                Soy una mujer, madre, artista, creadora de 31 años que durante mucho tiempo viví inconsciente de mi poder interior. A los 22 años una depresión de años llegó a su culminación y terminé medicada sin comprender bien qué me pasaba.
-                <br>
-                Una fuerza interior siempre me llevó a buscar mi bienestar. Es así como probé distintas terapias complementarias hasta que el año 2013 me inicié en Reiki Usui marcando un antes y un después en mi vida.
-                <br>
-                Despertó en mí la consciencia espiritual y de todos los poderes mágicos que me abundan. Y desde ese día no he parado en este hermoso camino de auto conocimiento y sanación. 
-                <br>
-                Como ves han sido años de aprendizaje. Sanar no es un mero trámite, es el sendero de la vida misma que se recorre y se construye a pulso con amor y mucha paciencia. 
-                <br>
-                Esta experiencia es lo que me interesa transmitir en mis talleres y terapias. No quiero decirte cómo vivir tu vida, quiero ayudarte a que te empoderes y regreses a tu centro para que aprendas a escucharte y conectarte con tu Ser esencial.
-                <br>
-                Me hace muy feliz poder acompañarte en tus procesos de crecimiento y sanación. Porque lo viví, porque también fui asistida en esos momentos difíciles y porque sé que el amor y la consciencia sanan.
-                <br>
-                Muchas gracias por visitar mi página y confiar en mi trabajo.
-                
-                <br><br>
-                Bendiciones
-                    </p>
- 
-            </div>
-
-            <br><br><br>
-
     </div>
+
+
+    <footer class="footer ">
+        <div class="container futer">
+
+            <a href="https://www.instagram.com/amor_consciencia_terapias/" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="https://api.whatsapp.com/send?phone=x" class="fa fa-whatsapp"></a>
+        </div>
+
+    </footer>
 
 </body>
 

@@ -55,7 +55,6 @@ const cargarDatosEnPantalla = () => {
     //parrafo.innerText= datos.texto;
     link.innerText= datos.link;
     link.href= datos.link;
-
 }
 
 //FUNCIONES DE LOS BOTONES DEL HEADER - - - - - - - - - - - - - - - - - - - - 

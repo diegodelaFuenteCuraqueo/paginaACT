@@ -184,6 +184,7 @@ html {
     animation-duration:10s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+    border-radius: 50%;
 } 
 
 .minilogo:hover{
